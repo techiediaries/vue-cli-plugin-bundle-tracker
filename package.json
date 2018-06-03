@@ -1,0 +1,17 @@
+{
+    "name": "vue-bundle-tracker",
+    "version": "0.1",
+    "description": "Vue CLI 3 plugin for tracking Webpack bundles",
+    "main": "index.js",
+    "author": "Ahmed Bouchefra",
+    "license": "MIT",
+    "private": false,
+    "dependencies": {
+      "webpack-bundle-tracker": "^0.3.0"
+    },
+    "repository" :
+    {
+      "type": "git",
+      "url": "https://github.com/techiediaries/vue-bundle-tracker.git"
+    }
+  }
