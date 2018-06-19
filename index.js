@@ -13,7 +13,7 @@ module.exports = (api, options) => {
 
     const webpack = require('webpack')
 
-    const wpConfig = api.resolveWebpackConfig()
+    const webpackConfig = api.resolveWebpackConfig()
     const path = args.path || './webpack-stats.json'
 
     wpConfig.plugins.push(new BundleTracker({ path }))
